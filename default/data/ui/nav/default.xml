@@ -1,0 +1,17 @@
+<nav search_view="search" color="#2E2E2E">
+  <view name="search"  />
+  <view name="data_models" />
+  <view name="reports" />
+  <view name="alerts" />
+  <collection label="Dashboards">
+    <view name="players" default='true' />
+    <divider />
+  </collection>
+  <collection label="Search views">
+    <view name="mysearchview" />
+    <a href="http://www.minetest.net/">Minetest.net</a>
+  </collection>
+  <collection label="all dashboards">
+    <view source="unclassified" />
+  </collection>
+</nav>
